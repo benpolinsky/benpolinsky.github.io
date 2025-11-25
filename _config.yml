@@ -1,5 +1,5 @@
-title: My Website
-description: Portfolio and projects of Your Name
+title: Ben Polinsky Home
+description: Portfolio and projects of Ben Polinsky
 remote_theme: pages-themes/Minimal
 
 # Enable GitHub Pages plugin
@@ -23,5 +23,5 @@ nav:
 
 # Optional extras
 color_scheme: light
-logo: /assets/logo.png
+logo: /assets/logo.jpg
 search_enabled: true
