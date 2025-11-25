@@ -1,6 +1,6 @@
 title: My Website
 description: Portfolio and projects of Your Name
-remote_theme: pages-themes/Architect
+remote_theme: pages-themes/Minimal
 
 # Enable GitHub Pages plugin
 plugins:
