@@ -5,6 +5,7 @@ remote_theme: pages-themes/Minimal
 # Enable GitHub Pages plugin
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
   
 
 # Set navigation order
@@ -18,6 +19,8 @@ nav:
     url: /about
   - title: "Projects"
     url: /projects
+  - title: "Maps"
+    url: /maps
   - title: "Contact"
     url: /contact
 

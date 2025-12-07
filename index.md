@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Home
 nav_order: 1
 ---
@@ -9,6 +10,7 @@ Hi! I’m **Ben Polinsky**, a software developer and burgeoning geographer. I'm 
 
 Use the links on the left (or top, depending on theme) to explore:
 
-- [About Me](about.md)
-- [Projects](projects.md)
-- [Contact](contact.md)
+- [About Me](/about)
+- [Maps](/maps)
+- [Projects](/projects)
+- [Contact](/contact)
