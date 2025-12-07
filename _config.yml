@@ -1,5 +1,5 @@
-title: Ben Polinsky Home
-description: Portfolio and projects of Ben Polinsky
+title: Ben Polinsky | GIS Portfolio
+description: Maps and spatial analysis from GIS Fundamentals coursework
 remote_theme: pages-themes/Minimal
 
 # Enable GitHub Pages plugin
@@ -15,12 +15,10 @@ nav_order: 1
 nav:
   - title: "Home"
     url: /
-  - title: "About Me"
-    url: /about
-  - title: "Projects"
-    url: /projects
   - title: "Maps"
     url: /maps
+  - title: "About"
+    url: /about
   - title: "Contact"
     url: /contact
 

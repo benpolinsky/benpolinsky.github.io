@@ -4,13 +4,13 @@ title: Home
 nav_order: 1
 ---
 
-# 👋 Welcome
+# GIS Fundamentals Portfolio
 
-Hi! I’m **Ben Polinsky**, a software developer and burgeoning geographer. I'm still working on my official personal site, but in the meantime, I'll post some maps from my GIS Fundamentals graduate school class.
+This site showcases maps and spatial analysis projects from my GIS Fundamentals graduate coursework. Each map demonstrates different techniques in geographic information systems, from choropleth mapping to site suitability analysis.
 
-Use the links on the left (or top, depending on theme) to explore:
+**[View the Maps →](/maps)**
+
+---
 
 - [About Me](/about)
-- [Maps](/maps)
-- [Projects](/projects)
 - [Contact](/contact)
