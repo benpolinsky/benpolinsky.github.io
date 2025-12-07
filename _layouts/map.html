@@ -1,13 +1,76 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>{{ page.title }}</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="https://pages-themes.github.io/minimal/assets/css/style.css">
+    <style>
+        .wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-{% if page.image %}
-<a href="{{ page.image }}">
-    <img src="{{ page.image }}" alt="{{ page.title }}" />
-</a>
-{% endif %}
+        .back-link {
+            margin-bottom: 20px;
+        }
 
-{{ content }}
+        .map-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .post-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .post-nav a {
+            max-width: 45%;
+        }
+
+        .post-nav .prev::before {
+            content: "← ";
+        }
+
+        .post-nav .next::after {
+            content: " →";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <p class="back-link"><a href="/maps">&larr; Back to Maps</a></p>
+
+        <h1>{{ page.title }}</h1>
+
+        {% if page.image %}
+        <div class="map-image">
+            <a href="{{ page.image }}">
+                <img src="{{ page.image }}" alt="{{ page.title }}" />
+            </a>
+        </div>
+        {% endif %}
+
+        {{ content }}
+
+        <nav class="post-nav">
+            {% if page.previous.url %}
+            <a class="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            {% else %}
+            <span></span>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+            {% endif %}
+        </nav>
+    </div>
+</body>
+
+</html>
