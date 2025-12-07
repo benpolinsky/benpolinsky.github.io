@@ -5,6 +5,7 @@ remote_theme: pages-themes/Minimal
 # Enable GitHub Pages plugin
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
   
 
 # Set navigation order
@@ -27,9 +28,3 @@ nav:
 color_scheme: light
 logo: /assets/logo.jpeg
 search_enabled: true
-
-# Collections
-collections:
-  maps:
-    output: true
-    permalink: /maps/:name/

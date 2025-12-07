@@ -8,13 +8,13 @@ nav_order: 4
 
 A collection of geographic visualizations and cartographic work.
 
-{% for map in site.maps %}
+{% for post in site.categories.maps %}
 
-## [{{ map.title }}]({{ map.url }})
+## [{{ post.title }}]({{ post.url }})
 
-[![{{ map.title }}]({{ map.image }})]({{ map.image }})
+[![{{ post.title }}]({{ post.image }})]({{ post.image }})
 
-{{ map.content | strip_html | truncatewords: 30 }}
+{{ post.content | strip_html | truncatewords: 30 }}
 
 ---
 
