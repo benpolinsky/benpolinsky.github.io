@@ -18,6 +18,8 @@ nav:
     url: /about
   - title: "Projects"
     url: /projects
+  - title: "Maps"
+    url: /maps
   - title: "Contact"
     url: /contact
 
@@ -25,3 +27,9 @@ nav:
 color_scheme: light
 logo: /assets/logo.jpeg
 search_enabled: true
+
+# Collections
+collections:
+  maps:
+    output: true
+    permalink: /maps/:name/
